@@ -1,0 +1,11 @@
+# python
+.venv
+__pycache__/
+
+# env
+.env
+
+# data and outputs
+data/
+artifacts/
+evaluations/

@@ -1,0 +1,19 @@
+{
+  "run_id": "llm-gptoss-120-03",
+  "parser": "llm",
+  "model": "openai/gpt-oss-120b",
+  "batch_size": 100,
+  "shuffle_seed": 20260729,
+  "temperature": 0.0,
+  "seed": 20260713,
+  "styles": [
+    "jecon-kalc",
+    "ipsjsort",
+    "jsai",
+    "jplain",
+    "sist02",
+    "jpa2022",
+    "chicago-author-date"
+  ],
+  "order_mode": "shuffle"
+}

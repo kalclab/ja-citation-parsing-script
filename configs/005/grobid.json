@@ -1,0 +1,14 @@
+{
+  "run_id": "grobid-05",
+  "parser": "grobid",
+  "shuffle_seed": 20260731,
+  "styles": [
+    "jecon-kalc",
+    "ipsjsort",
+    "jsai",
+    "jplain",
+    "sist02",
+    "jpa2022",
+    "chicago-author-date"
+  ]
+}

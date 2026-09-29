@@ -1,0 +1,31 @@
+[project]
+name = "agentic-parse-exp"
+version = "0.1.0"
+description = "Experiments comparing LLMs and GROBID on parsing Japanese bibliographic references"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.44.0",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "httpx>=0.28.1",
+    "regex>=2026.7.10",
+    "bibtexparser>=1.4.4",
+]
+
+[dependency-groups]
+dev = [
+    "pyrefly>=1.1.1",
+    "ruff>=0.15.19",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.format]
+docstring-code-format = true
